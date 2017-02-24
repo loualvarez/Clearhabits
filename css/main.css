@@ -136,6 +136,10 @@ small {
   background-color: rgba(255, 255, 255, 0.95) !important;
 }
 
+.full .full-btn {
+  width: 100%;
+}
+
 .full .selector {
   position: absolute;
   right: 25px;
