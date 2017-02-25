@@ -303,3 +303,57 @@ small {
 .full .wraper .left-container-content {
   padding-top: 100px;
 }
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px) {
+
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 480px) {
+
+    .container .jumbotron {
+      padding: 0px;
+    }
+
+    .full form {
+      width: 100%;
+    }
+
+    .jumbotron .left-container {
+      position: relative;
+    }
+
+    .jumbotron
+    .left-container
+    .wraper {
+      padding: 0 20px 0 20px;
+    }
+
+    .full ul {
+      padding: 0px;
+    }
+
+    .full ul .how-long {
+      width: 84% !important;
+    }
+
+  }
+
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width : 320px) {
+
+  }
