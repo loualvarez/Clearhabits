@@ -360,6 +360,10 @@ small {
       font-size: 36.92px !important;
     }
 
+    .landing-mobile {
+      padding-top: 50% !important;
+    }
+
     .container .jumbotron {
       padding: 0px;
     }
