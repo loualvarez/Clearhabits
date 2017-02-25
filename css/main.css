@@ -320,6 +320,11 @@ small {
   /* Small Devices, Tablets */
   @media only screen and (max-width : 768px) {
 
+    .jumbotron .left-container {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
     .container .jumbotron {
       padding: 0px;
     }
@@ -356,12 +361,13 @@ small {
   /* Extra Small Devices, Phones */
   @media only screen and (max-width : 480px) {
 
-    h1 {
-      font-size: 36.92px !important;
+    .jumbotron .left-container {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
 
-    .landing-mobile {
-      padding-top: 50% !important;
+    h1 {
+      font-size: 36.92px !important;
     }
 
     .container .jumbotron {
@@ -415,9 +421,22 @@ small {
     .left-container
     .left-container-content
     .btn-default {
-      margin-top: 40px !important;
-
+      /* margin-top: 40px !important; */
     }
+
+    .landing-mobile {
+      padding-top: 50% !important;
+    }
+
+    .landing-moible .btn-default {
+      margin-top: 50px !important;
+    }
+
+    .thank-you {
+      margin-bottom: 20px !important;
+      margin: 0 20px 0 20px !important;
+    }
+
 
   }
 
