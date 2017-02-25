@@ -320,6 +320,34 @@ small {
   /* Small Devices, Tablets */
   @media only screen and (max-width : 768px) {
 
+    .container .jumbotron {
+      padding: 0px;
+    }
+
+    .full form {
+      width: 100%;
+    }
+
+    .jumbotron .left-container {
+      position: relative;
+    }
+
+    .full ul {
+      padding: 0px;
+    }
+
+    .full ul .how-long {
+
+    }
+
+    .jumbotron .left-container {
+      width: 100%;
+      text-align: center;
+    }
+
+    .jumbotron .left-container-content {
+
+    }
   }
 
   /* Extra Small Devices, Phones */
@@ -350,6 +378,12 @@ small {
     .full ul .how-long {
       width: 84% !important;
     }
+
+    .jumbotron .left-container {
+      width: 100%;
+      text-align: center;
+    }
+
 
   }
 
