@@ -337,7 +337,11 @@ small {
     }
 
     .full ul .how-long {
+      width: 89% !important;
+    }
 
+    .full ul .how-long-special {
+      padding-top: 37px !important;
     }
 
     .jumbotron .left-container {
@@ -346,7 +350,6 @@ small {
     }
 
     .jumbotron .left-container-content {
-
     }
   }
 
