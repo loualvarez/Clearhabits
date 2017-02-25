@@ -356,6 +356,11 @@ small {
 
     .jumbotron .left-container-content {
     }
+
+    .landing-mobile {
+      padding-top: 50% !important;
+    }
+    
   }
 
   /* Extra Small Devices, Phones */
