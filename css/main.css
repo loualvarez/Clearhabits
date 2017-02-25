@@ -60,7 +60,8 @@ small {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: 0px 0px 15px rgba(0,0,0,0.16);
   padding: 0;  border: 0;  margin: 0;
-  height: 100%;
+  min-height: 860px;
+  position: relative;
 }
 
 .jumbotron .left-container {
@@ -74,7 +75,8 @@ small {
   /* End Border Radious Control */
 
   width: 50%;
-  height: 100%;
+  min-height: 860px;
+  position: absolute;
 }
 
 .jumbotron
@@ -103,6 +105,7 @@ small {
 .wraper {
   position: relative;
   padding: 0 60px 0 60px;
+  min-height: 860px;
 }
 
 @media screen and (min-width: 768px) {
@@ -248,6 +251,8 @@ small {
 .full form {
   width: 462px;
   margin: 0 auto;
+  margin-bottom: 100px;
+  display: inline-block;
 }
 
 .full form input:nth-child(1) {
