@@ -392,11 +392,23 @@ small {
       width: 80% !important;
     }
 
+    .full ul .how-long-special {
+      padding-top: 37px !important;
+      width: 81% !important;
+    }
+
     .jumbotron .left-container {
       width: 100%;
       text-align: center;
     }
 
+    .jumbotron
+    .left-container
+    .left-container-content
+    .btn-default {
+      margin-top: 40px !important;
+
+    }
 
   }
 
