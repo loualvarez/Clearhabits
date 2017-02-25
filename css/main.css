@@ -375,6 +375,16 @@ small {
       padding: 0px;
     }
 
+    .full ul li {
+      margin: 0 0 20px 0px !important;
+      float: left !important;
+    }
+
+    .full ul img {
+      margin: 0 0 30px 0px;
+      float: left;
+    }
+
     .full ul .how-long {
       width: 81% !important;
     }
