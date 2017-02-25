@@ -11,7 +11,10 @@ body {
   font-family: Open Sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../img/background.jpg");
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-color: #fafafa;
   color: #323441;
@@ -30,7 +33,7 @@ small {
 }
 
 .btn {
-  padding: 17px 12px;
+  padding: 19px 12px;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -77,6 +80,7 @@ small {
   width: 50%;
   min-height: 860px;
   position: absolute;
+  margin-bottom: 50px;
 }
 
 .jumbotron
@@ -98,6 +102,7 @@ small {
 .left-container-content
 .btn-default {
   margin-top: 85px;
+  margin-bottom: 30px;
 }
 
 .jumbotron
@@ -184,6 +189,12 @@ small {
   margin: 0 20px 0px 0px;
 }
 
+.full ul svg {
+  width: 36px;
+  margin: 0 20px 0px 0px;
+  padding-top: 25px;
+}
+
 
 .full p, .full ul {
   color: #665e64;
@@ -210,6 +221,7 @@ small {
   font-size: 14px;
   color: #999;
   margin-bottom: 20px;
+  line-height: 1.4em;
 }
 
 .full select,
@@ -263,6 +275,9 @@ small {
   border-bottom: 1px solid #ebebeb;
 }
 
+.full form input:nth-child(3) {
+  border-bottom: 1px solid #ebebeb;
+}
 
 .full form .form-container {
   position: relative;
