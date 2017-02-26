@@ -140,7 +140,7 @@ small {
   width: 100% !important;
   border-top-right-radius: 5px !important;
   border-bottom-right-radius: 5px !important;
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
 .full .full-btn {
@@ -366,6 +366,20 @@ small {
   /* Extra Small Devices, Phones */
   @media only screen and (max-width : 480px) {
 
+    body {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    .left-container {
+      background-color: rgba(255, 255, 255, 0.85) !important;
+    }
+
+    .brands {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
     .jumbotron, .jumbotron .left-container, .jumbotron .left-container .wraper {
       min-height: auto !important;
     }
@@ -376,11 +390,11 @@ small {
     }
 
     .full h1 {
-      margin: 10px 0 40px 0px !important;
+      margin: 10px 0 30px 0px !important;
     }
 
     .full p, .full ul {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     h1 {
@@ -393,7 +407,7 @@ small {
 
     .full form {
       width: 100%;
-      margin-bottom: 50px;
+      margin-bottom: 0px;
     }
 
     .jumbotron .left-container {
@@ -440,19 +454,25 @@ small {
       padding-top: 50px !important;
     }
 
+    .landing-mobile {
+      padding-top: 20% !important;
+    }
+
     .jumbotron
     .left-container
-    .left-container-content
-    .btn-default {
-      margin-top: 40px !important;
+    .btn-default
+    {
+      margin-top: 20px !important;
+      margin-bottom: 50px !important;
     }
 
-    .landing-mobile {
-      padding-top: 30% !important;
-    }
-
-    .landing-moible .btn-default {
+    .jumbotron
+    .left-container
+    .landing-mobile
+    .btn-default
+    {
       margin-top: 40px !important;
+      margin-bottom: 70px !important;
     }
 
     .thank-you {
