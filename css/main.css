@@ -395,6 +395,10 @@ small {
       margin-bottom: 30px;
     }
 
+    .brands img {
+      width: 70%;
+    }
+
     .jumbotron .left-container .logo {
       padding: 45px 0px 0px 0px;
     }
