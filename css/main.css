@@ -438,7 +438,7 @@ small {
     }
 
     .full ul li {
-      margin: 0 0 20px 0px !important;
+      margin: 0 0 15px 0px !important;
       float: left !important;
     }
 
@@ -448,7 +448,7 @@ small {
     }
 
     .full ul .how-long {
-      width: 80% !important;
+      width: 83% !important;
     }
 
     .full ul .how-long-special {
