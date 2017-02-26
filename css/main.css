@@ -394,7 +394,7 @@ small {
     }
 
     .full h1 {
-      margin: 10px 0 30px 0px !important;
+      margin: 10px 0 20px 0px !important;
     }
 
     .full h2 {
@@ -406,10 +406,14 @@ small {
       width: 29px;
     }
 
+    .full p {
+      font-size: 16px;
+    }
+
     .full p, .full ul {
       margin-bottom: 20px;
     }
-    
+
     h1 {
       font-size: 36.92px !important;
     }
@@ -464,7 +468,7 @@ small {
     .full
     .wraper
     .left-container-content {
-      padding-top: 40px !important;
+      padding-top: 15px !important;
     }
 
     .landing-mobile {
