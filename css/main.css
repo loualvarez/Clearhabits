@@ -380,6 +380,10 @@ small {
       margin-bottom: 30px;
     }
 
+    .jumbotron .left-container .logo {
+      padding: 45px 0px 0px 0px;
+    }
+
     .jumbotron, .jumbotron .left-container, .jumbotron .left-container .wraper {
       min-height: auto !important;
     }
@@ -391,6 +395,11 @@ small {
 
     .full h1 {
       margin: 10px 0 30px 0px !important;
+    }
+
+    .full h2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
 
     .full p, .full ul {
@@ -451,7 +460,7 @@ small {
     .full
     .wraper
     .left-container-content {
-      padding-top: 50px !important;
+      padding-top: 40px !important;
     }
 
     .landing-mobile {
