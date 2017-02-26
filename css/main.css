@@ -136,6 +136,10 @@ small {
   margin-top: 35px;
 }
 
+.brands img {
+  width: 60%;
+}
+
 .full {
   width: 100% !important;
   border-top-right-radius: 5px !important;
