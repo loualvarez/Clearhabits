@@ -418,6 +418,11 @@ small {
       font-size: 36.92px !important;
     }
 
+    .container {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+
     .container .jumbotron {
       padding: 0px;
     }
@@ -452,7 +457,7 @@ small {
     }
 
     .full ul .how-long {
-      width: 83% !important;
+      width: 85% !important;
     }
 
     .full ul .how-long-special {
