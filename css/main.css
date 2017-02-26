@@ -402,6 +402,10 @@ small {
       margin-bottom: 10px;
     }
 
+    .full ul li img {
+      width: 29px;
+    }
+
     .full p, .full ul {
       margin-bottom: 20px;
     }
