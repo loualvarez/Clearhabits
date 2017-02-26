@@ -140,7 +140,7 @@ small {
   width: 100% !important;
   border-top-right-radius: 5px !important;
   border-bottom-right-radius: 5px !important;
-  background-color: rgba(255, 255, 255, 0.95) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .full .full-btn {
@@ -366,9 +366,21 @@ small {
   /* Extra Small Devices, Phones */
   @media only screen and (max-width : 480px) {
 
+    .jumbotron, .jumbotron .left-container, .jumbotron .left-container .wraper {
+      min-height: auto !important;
+    }
+
     .jumbotron .left-container {
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
+    }
+
+    .full h1 {
+      margin: 10px 0 40px 0px !important;
+    }
+
+    .full p, .full ul {
+      margin-bottom: 30px;
     }
 
     h1 {
@@ -422,19 +434,25 @@ small {
       text-align: center;
     }
 
+    .full
+    .wraper
+    .left-container-content {
+      padding-top: 50px !important;
+    }
+
     .jumbotron
     .left-container
     .left-container-content
     .btn-default {
-      /* margin-top: 40px !important; */
+      margin-top: 40px !important;
     }
 
     .landing-mobile {
-      padding-top: 50% !important;
+      padding-top: 30% !important;
     }
 
     .landing-moible .btn-default {
-      margin-top: 50px !important;
+      margin-top: 40px !important;
     }
 
     .thank-you {
