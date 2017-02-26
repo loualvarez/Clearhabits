@@ -394,7 +394,8 @@ small {
     }
 
     .full h1 {
-      margin: 10px 0 20px 0px !important;
+      margin: 5px 0 20px 0px !important;
+      font-size: 20px !important;
     }
 
     .full h2 {
