@@ -370,6 +370,11 @@ small {
   /* Extra Small Devices, Phones */
   @media only screen and (max-width : 480px) {
 
+    html {
+      position: fixed;
+
+    }
+
     body {
       padding-top: 0px;
       padding-bottom: 0px;
@@ -387,10 +392,17 @@ small {
       display: none;
     }
 
-    .special-button {
-      position: absolute;
+    .btn-default {
+      position: fixed;
+      margin-top: 0px;
+      margin-bottom: 0px;
       bottom: 0;
       left: 0;
+    }
+
+    .special-button .btn-default {
+      margin-top: 0px;
+      margin-bottom: 0px;
     }
 
     .left-container {
@@ -527,8 +539,8 @@ small {
     .left-container
     .btn-default
     {
-      margin-top: 20px !important;
-      margin-bottom: 50px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
     }
 
     .jumbotron
@@ -536,8 +548,9 @@ small {
     .landing-mobile
     .btn-default
     {
-      margin-top: 40px !important;
-      margin-bottom: 70px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+      width: 100% !important;
     }
 
     .thank-you {
