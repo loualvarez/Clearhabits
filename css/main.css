@@ -310,6 +310,14 @@ small {
   padding-top: 100px;
 }
 
+#time-normal {
+  display: block;;
+}
+
+#time-iphone {
+  display: none;
+}
+
 
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -388,6 +396,14 @@ small {
     .jumbotron .left-container .wraper,
     .left-container-content {
       height: 100% !important;
+    }
+
+    #time-normal {
+      display: none;
+    }
+
+    #time-iphone {
+      display: block;
     }
 
     .full form .form-container {
