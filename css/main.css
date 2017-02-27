@@ -403,7 +403,7 @@ small {
     }
 
     .hide-on-mobile {
-
+      margin-top: 0px !important;
     }
 
     .highlight-p {
