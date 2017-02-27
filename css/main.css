@@ -335,12 +335,12 @@ small {
   @media only screen and (max-width : 768px) {
 
     #time-normal {
-      display: block;
+      display: none;
     }
 
     #time-iphone {
-      display: none;
-    }    
+      display: block;
+    }
 
     .jumbotron .left-container {
         border-top-right-radius: 5px;
