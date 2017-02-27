@@ -372,7 +372,11 @@ small {
 
     body {
       padding-top: 0px;
-      padding-bottom: 15px;
+      padding-bottom: 0px;
+    }
+
+    body, .container .jumbotron, .left-container, .jumbotron .left-container .wraper {
+      height: 100% !important;
     }
 
     .left-container {
