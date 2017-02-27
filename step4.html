@@ -26,7 +26,7 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body>
+    <body onload="timeset();">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -165,8 +165,8 @@
                   <form>
                     <h2>Select Time:</h2>
                     <div class="form-container">
-                      <input id="time-normal" type="text" name="timepicker" class="timepicker" placeholder="">
-                      <input id="time-iphone" type="time" name="time" placeholder="">
+                      <input id="time-normal" type="text" name="timepicker" class="timepicker" placeholder="8:00 AM">
+                      <input id="time-iphone" type="time" name="time-iphone">
                     </div>
                     <ul style="margin-bottom:0px;">
                       <li>
@@ -213,6 +213,12 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script>
+          function timeset() {
+            document.getElementById("time-iphone").value = "08:00:00";
+          }
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
