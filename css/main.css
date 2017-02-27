@@ -375,8 +375,22 @@ small {
       padding-bottom: 0px;
     }
 
-    body, .container .jumbotron, .left-container, .jumbotron .left-container .wraper {
+    body,
+    .container .jumbotron,
+    .left-container,
+    .jumbotron .left-container .wraper,
+    .left-container-content {
       height: 100% !important;
+    }
+
+    .hide-on-mobile {
+      display: none;
+    }
+
+    .special-button {
+      position: absolute;
+      bottom: 0;
+      left: 0;
     }
 
     .left-container {
