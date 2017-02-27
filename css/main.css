@@ -403,7 +403,14 @@ small {
     }
 
     .hide-on-mobile {
-      display: none;
+
+    }
+
+    .highlight-p {
+      font-size: 25px !important;
+      font-weight: bold !important;
+      margin-bottom: 30px !important;
+      color: #333 !important;
     }
 
     .btn-default {
