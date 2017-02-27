@@ -311,7 +311,7 @@ small {
 }
 
 #time-normal {
-  display: block;;
+  display: block;
 }
 
 #time-iphone {
@@ -333,6 +333,14 @@ small {
 
   /* Small Devices, Tablets */
   @media only screen and (max-width : 768px) {
+
+    #time-normal {
+      display: block;
+    }
+
+    #time-iphone {
+      display: none;
+    }    
 
     .jumbotron .left-container {
         border-top-right-radius: 5px;
