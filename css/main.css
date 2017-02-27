@@ -48,7 +48,9 @@ small {
   min-width: 235px;
 }
 
-.btn-default:hover {
+.btn-default:hover,
+.btn-default:active,
+.btn-default:link {
   color: #fff;
   background-color: #01b841;
 }
@@ -386,6 +388,18 @@ small {
     .jumbotron .left-container .wraper,
     .left-container-content {
       height: 100% !important;
+    }
+
+    .full form .form-container {
+      margin-bottom: 25px;
+    }
+
+    .btn-default {
+      height: 70px;
+    }
+
+    .btn {
+      padding: 25px 12px;
     }
 
     .hide-on-mobile {
