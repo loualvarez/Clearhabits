@@ -117,9 +117,9 @@ small {
 
 input[type="text"]:disabled {
     color: #01b841;
-    -webkit-text-fill-color:#880000; /* Override iOS / Android font color change */
+    -webkit-text-fill-color:#01b841; /* Override iOS / Android font color change */
     -webkit-opacity:1; /* Override iOS opacity change affecting text & background color */
-    color:#880000; /* Override IE font color change */
+    color:#01b841; /* Override IE font color change */
 }
 
 @media screen and (min-width: 768px) {
