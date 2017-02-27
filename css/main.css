@@ -428,14 +428,14 @@ small {
     }
 
     .landing-only small {
-      color: #fff;
-      text-shadow: 0px 1px 1px rgba(0,0,0,0.7);
+      color: #000;
+      /* text-shadow: 0px 1px 1px rgba(0,0,0,0.7); */
     }
 
     .landing-only h1 {
       font-weight: 400;
-      color: #fff;
-      text-shadow: 0px 1px 1px rgba(0,0,0,0.7);
+      color: #000;
+      /* text-shadow: 0px 1px 1px rgba(0,0,0,0.7); */
     }
 
     .brands {
